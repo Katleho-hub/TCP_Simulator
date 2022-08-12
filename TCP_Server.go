@@ -12,7 +12,7 @@ import (
 func main() {
 	arguments := os.Args
 	if len(arguments) == 1 {
-		fmt.Println("Provide port number")
+		fmt.Println("Provide port number i.e. go run TCP_Server.go <port number>")
 		return
 	}
 
